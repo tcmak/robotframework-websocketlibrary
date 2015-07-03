@@ -1,0 +1,18 @@
+*** Settings ***
+Library  WebSocketLibrary
+
+
+*** Test Cases ***
+Echo
+	connect	ws://echo.websocket.org
+	send	Hello
+	${result}=	recv
+	Should be Equal	Hello	${result}
+	close
+
+Echo2
+	connect	ws://echo.websocket.org
+	send	Hey
+	${result}=	recv
+	Should be Equal	Hey	${result}
+	close
