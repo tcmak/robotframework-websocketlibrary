@@ -4,6 +4,6 @@ A simple wrap up for Websocket-client Python library
 
 # Requirement
 
-pip install websocket-client
-sudo python setup.py install
+1. pip install websocket-client
+2. sudo python setup.py install
 
