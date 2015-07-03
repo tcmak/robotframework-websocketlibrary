@@ -2,6 +2,6 @@
 
 A simple wrap up for Websocket-client Python library
 
-# Installation
+# Requirement
 
 pip install websocket-client
